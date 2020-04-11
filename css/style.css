@@ -11,7 +11,7 @@
     z-index: 999;
     width:17rem;
     height:13rem;
-    clip-path: polygon(100% 0, 100% 100%, 50% 86%, 0 100%, 0% 0%);
+    clip-path: polygon(100% 0, 100% 100%, 50% 91%, 0 100%, 0% 0%)
 }
 .logo-img{
     width:100%;
