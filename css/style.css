@@ -12,7 +12,7 @@
     padding:0 1rem;
     z-index: 999;
     width:17rem;
-    height:16rem;
+    height:17rem;
 clip-path: polygon(100% 15%, 100% 50%, 100% 85%, 50% 80%, 0 85%, 0 15%);
 
 }
@@ -325,7 +325,7 @@ hr{
         }
        
         .logo{
-            height: 8rem;
+            height: 11.5rem;
         }
         .header-nav  .pages li{
             display: inline-block;
@@ -349,7 +349,7 @@ hr{
             padding: 2rem .9rem;
         }
         .logo{
-            height:8rem;
+            height:12rem;
             width:10rem;
         } 
     }
