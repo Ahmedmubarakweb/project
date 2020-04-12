@@ -12,7 +12,7 @@
     padding:0 1rem;
     z-index: 999;
     width:17rem;
-    height:17rem;
+    height:15rem;
 clip-path: polygon(100% 15%, 100% 50%, 100% 85%, 50% 80%, 0 85%, 0 15%);
 
 }
@@ -291,7 +291,7 @@ hr{
         }
         header .header-nav {
             background-color: #005082;
-            padding: 4rem .9rem;
+            padding:0;
         }
         .collapse.show {
             margin-top: 1rem;
@@ -321,11 +321,11 @@ hr{
     @media (max-width: 768px){
         header .header-nav {
             background-color: #005082;
-            padding: 3.5rem .9rem;
+            padding: 0;
         }
        
         .logo{
-            height: 9.5rem;
+            height: 10rem;
         }
         .header-nav  .pages li{
             display: inline-block;
@@ -346,11 +346,11 @@ hr{
     @media (max-width: 425px){
         header .header-nav {
             background-color: #005082;
-            padding: 2rem .9rem;
+            padding: 0;
         }
         .logo{
-      height: 12rem;
-    width: 11rem;
+      height: 9rem;
+    width: 9rem;
         } 
     }
    
