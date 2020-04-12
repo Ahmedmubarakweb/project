@@ -352,5 +352,9 @@ hr{
       height: 9rem;
     width: 9rem;
         } 
+        .footer .pages {
+    list-style-type: none;
+     padding-left: 0;
+}
     }
    
