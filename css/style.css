@@ -1,4 +1,6 @@
 
+
+/*header section*/
 .active{
     background-color: orange;
 }
@@ -10,8 +12,9 @@
     padding:0 1rem;
     z-index: 999;
     width:17rem;
-    height:13rem;
-    clip-path: polygon(100% 0, 100% 100%, 50% 91%, 0 100%, 0% 0%)
+    height:15rem;
+    clip-path: polygon(100% 0, 210% 100%, 50% 72%, 0 84%, 0% 0%);
+
 }
 .logo-img{
     width:100%;
@@ -22,9 +25,14 @@
     font-weight: bold;
     color:#005082;
 }
+.header{
+    background-color:#005082;
+    padding:.7rem 0;
+    position: fixed;
+}
 header .header-nav{
     background-color:#005082;
-    padding:7px 0;
+    padding:7px 10px;
     }
     .navbar-nav-1 li{
 display: inline-block;
@@ -65,6 +73,9 @@ display: inline-block;
     header .carousel-caption{
         top:5rem;
     }
+    .pages h6{
+        padding: .7rem 1rem !important;
+    }
     header .header-content{
         padding:2rem 1rem;
         width:20rem;
@@ -80,6 +91,9 @@ display: inline-block;
     header h2{
         font-family: cursive;
     }
+    .social_icon_inside{
+        display: none;
+    }
 
 .shadow{
     box-shadow: 0 5px 5px 5px rgba(17, 17, 17,.1);
@@ -87,6 +101,7 @@ display: inline-block;
 .slider {
     height: 50rem;
 }
+/*features section*/
 .features{
     margin-top:10rem;
 }
@@ -106,6 +121,8 @@ display: inline-block;
     transform: translateY(-5px);
     box-shadow: 0 5px 5px 10px rgba(17, 17, 17,.1);
 }
+
+/*featured section*/
 .featured{
     padding:7rem 0;
 }
@@ -146,6 +163,7 @@ hr{
 .slick-prev,.slick-next:hover{
     background:rgb(56, 53, 53);}
 
+    /*testimonials section*/
     .testimonials{
         padding:7rem 0;
     }
@@ -154,28 +172,55 @@ hr{
 }
 .testimonials .testi-img{
     width:90%;
-    height:50%;
+    height:40%;
 }
 .testimonials .testi-p{
     padding:.7rem 2rem;
 }
+/*footer section*/
     footer{
         background-color:#005082;
         color:white;
         padding:1rem 0;
     }
-    .pages{
+    .move-up{
+        position: fixed;
+          background:#fff;
+          right:3%;
+          padding:.9rem;
+          border-radius: 50%;
+          background-color: #005082;
+          bottom:50%;
+      }
+      footer .move-up:hover{cursor: pointer;}
+    footer .pages{
         list-style-type: none;
     }
-    .pages li{
+ .pages li{
         display: inline-block;
         margin:.5rem .7rem;
     }
-    .pages li a{
+  .pages li a{
         text-decoration: none;
         color:white;
+        text-transform: capitalize;
+        font-size: 1rem;
     }
-
+    footer .pages li{
+        display: inline-block;
+        margin:.5rem .7rem;
+    }
+ footer .pages li a{
+        text-decoration: none;
+        color:white;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    footer span{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
     /*
     about page
     */
@@ -184,6 +229,9 @@ hr{
         height:12rem;
         background-position:center;
         background-size: cover;
+    }
+    .about_content{
+        padding:5rem 0;
     }
     .about_content h2{
         color: #005082;
@@ -233,35 +281,71 @@ hr{
      
     */
     @media (max-width:992px){
+        header .navbar .nav-item a {
+            padding: .9rem 1rem;
+        }
+        header .header-nav {
+            background-color: #005082;
+            padding: 4rem .9rem;
+        }
+        .collapse.show {
+            margin-top: 1rem;
+            display: block;
+        }
+        .logo{
+            height: 10rem;
+        }
         header .header-nav a{
             padding:.5rem 0 .5rem .5rem;
         }
+        .social_icon{
+            display: none;
+        }
+        .header-pages{
+            display: none;
+        }
+        .social_icon_inside{
+            display: block;
+        }
+        .social_icon_inside i,.social_icon_inside h6{
+            color:#005082;
+            font-weight: bold;
+        }
+    
     }
     @media (max-width: 768px){
+        header .header-nav {
+            background-color: #005082;
+            padding: 3.5rem .9rem;
+        }
+       
+        .logo{
+            height: 8rem;
+        }
         .header-nav  .pages li{
             display: inline-block;
             margin:.5rem .5rem;
         }
-     .social_icon{
-         margin-top:12rem;
-         margin-bottom:3rem;
-         font-size: 1rem;
-         text-align: center;
-     }
-     .social_icon i{
-         font-size:1rem;
-     }
+    
      .testimonials .testi-p{
         padding:.7rem .2rem;
     }
-     .logo-img{
-         width:14rem;
-     }
+  
      .pages{
          text-align: center;
      }
      .pages li{
         margin-left:0;
     }
+    }
+    @media (max-width: 425px){
+        header .header-nav {
+            background-color: #005082;
+            padding: 2rem .9rem;
+        }
+        .logo{
+            height: 5rem;
+            width:10rem;
+        } 
     }
    
