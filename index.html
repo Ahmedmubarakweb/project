@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/slick.css">
 <link rel="stylesheet" href="css/slick-theme.css">
 <link rel="stylesheet" href="css/style.css">
-<title>Hello World</title>
+<title>Home page</title>
 <!-- Snippets By Piyush Garg-->
 </head>
 <body>
@@ -28,7 +28,7 @@
               <h6 class="text-white m-1 p-0">Burnely 0128570055</h6>
             </div>
           </div>
-          <div class="col-md-6 text-right  col-sm-12 pl-3">
+          <div class="col-md-6 text-right  col-sm-12 pl-3 header-pages">
             <ul class="pages">
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About Us</a></li>
@@ -44,7 +44,7 @@
     </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light bg-none">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -53,29 +53,33 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link pr-3" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link pr-3" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link pr-3" href="about.html">About Us <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3" href="#">Why Imana Estates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  px-3" href="#">Buying</a>
+          <a class="nav-link pr-3" href="contact.html">Contact <span class="sr-only">(current)</span></a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link px-3" href="#">Selling</a>
+          <a class="nav-link  px-3" href="#buying">Buying</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3" href="#">Letting</a>
+          <a class="nav-link px-3" href="#selling">Selling</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3" href="#">Epcs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-3" href="#">UKBA Inspections</a>
+          <a class="nav-link px-3" href="#letting">Letting</a>
         </li>
       </ul>
+      <div class="social_icon_inside pl-3">
+        <h6 class="m-1 py-2">Burnely 0128570055</h6>
+        <h6 class=" m-1 py-2">Manchester 0161 850 2112</h6>
+       <a href="#"><i class="fab fa-facebook-f  mx-2 mt-2 my-2 fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter  mx-2 mt-2 my-2 fa-2x"></i>
+        </a>
+      </div>
     </div>
   </nav>
   </div>
@@ -111,7 +115,7 @@
            <div class="container">
                <div class="row">
                 <div class="col-md-4 col-sm-12 col-xs-1 text-left">
-                    <div class="buying shadow  mb-4">
+                    <div id="buying" class="buying shadow  mb-4">
                         <h3 class="mb-3 text-primary">buying</h3>
                         <p>Lorem ipsum dolor sit amet consectetur
                              mmodiora quia ratione culpa unde veritatis, eum voluptates recusandae nihi</p>
@@ -120,7 +124,7 @@
                         
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-1  text-left">
-                    <div class="selling shadow mb-4">
+                    <div id="selling" class="selling shadow mb-4">
                         <h3 class="mb-3 text-primary">selling </h3>
                         <p>Lorem ipsum dolor sit amet consectetur
                              mmodiora quia ratione culpa unde veritatis, eum voluptates recusandae nihi</p>
@@ -128,7 +132,7 @@
                     </div>
                         </div>
                 <div class="col-md-4 col-sm-12 col-xs-1  text-left">
-                    <div class="letting shadow mb-4">
+                    <div id="letting" class="letting shadow mb-4">
                         <h3 class="mb-3 text-primary">letting </h3>
                         <p>Lorem ipsum dolor sit amet consectetur
                              mmodiora quia ratione culpa unde veritatis, eum voluptates recusandae nihi</p>
@@ -210,7 +214,7 @@
        <div class="container ">
          <h2 class="text-center mb-5">Customer Testimonials</h2>
            <div class="my-3 text-center">
-             <img class="testi-img" src="images/home-real.jpg"  alt="">
+             <img class="testi-img" src="images/home-testi.jpg" width="90%" height="70%"  alt="">
              <p class="text-muted text-left ml-2 mt-3 testi-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta ducimus reprehenderit, inventore tenetur nam sunt recusandae illo labore. Saepe, voluptatum minima. In maiores eius doloremque accusantium voluptatibus quod nemo?
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta ducimus reprehenderit, inventore tenetur nam sunt recusandae illo labore. 
              </p>
@@ -281,12 +285,12 @@
           </div>
          </div>
       </div>
-
+      <div class="move-up "><i class="fa fa-arrow-up hvr-float"></i></div>
     </footer>
 
 <!-- JS FILES-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="js/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
