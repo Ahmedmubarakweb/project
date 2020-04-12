@@ -160,6 +160,9 @@ hr{
     background:gray;
     z-index: 999;
 }
+.slick-next {
+    right: -10px;
+}
 .slick-prev,.slick-next:hover{
     background:rgb(56, 53, 53);}
 
