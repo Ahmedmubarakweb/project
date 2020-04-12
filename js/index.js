@@ -61,9 +61,13 @@ const responsive = {
      var btnScroll= $(".move-up");
      btnScroll.hide();
      $(window).scroll(function(){
-       if($(this).scrollTop()>1000){
+       if($(this).scrollTop()>900){
         btnScroll.show();
        }
        else
        btnScroll.hide();
      })
+   //when button clicked
+     btnScroll.click(function(){
+      $('html,body').animate({scrollTop:0},700);
+  });
