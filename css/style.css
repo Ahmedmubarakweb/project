@@ -51,9 +51,11 @@ display: inline-block;
     header .header-nav h1{
         font-family: 'Times New Roman', Times, serif;
     }
-  
+   .navbar {
+        padding:0 1rem
+    }
     header .navbar  .nav-item a{
-    padding:.3rem .7rem;
+    padding:.8rem .7rem;
     font-size:1rem;
     }
     header .carousel-indicators li{
